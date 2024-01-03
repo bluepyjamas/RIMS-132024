@@ -1,0 +1,132 @@
+2023-05-29 02:17:24
+JavaScript Error:
+	Error: Could not execute returned javascript: Cannot read properties of undefined (reading 'setAttribute')
+Source: Xojo.controls['wXef1UZW'].setAttribute('width','116');
+Xojo.controls['wXef1UZW'].setAttribute('height','40');
+try {
+Xojo.controls['wXef1UZW'].editScript(3,'var canvas = document.getElementById(\'wXef1UZW_canvas\');',0);
+Xojo.controls['wXef1UZW'].editScript(3,'if(canvas) {',1);
+Xojo.controls['wXef1UZW'].editScript(3,'\tvar context = canvas.getContext(\'2d\');',2);
+Xojo.controls['wXef1UZW'].editScript(3,'',3);
+Xojo.controls['wXef1UZW'].editScript(3,'var devicePixelRatio = window.devicePixelRatio || 1;',4);
+Xojo.controls['wXef1UZW'].editScript(3,'var backingStoreRatio =  context.webkitBackingStorePixelRatio ||  context.mozBackingStorePixelRatio || context.msBackingStorePixelRatio || context.oBackingStorePixelRatio || context.backingStorePixelRatio || 1;',5);
+Xojo.controls['wXef1UZW'].editScript(3,'if(devicePixelRatio !== backingStoreRatio) {',6);
+Xojo.controls['wXef1UZW'].editScript(3,'\tvar ratio = devicePixelRatio / backingStoreRatio;',7);
+Xojo.controls['wXef1UZW'].editScript(3,'',8);
+Xojo.controls['wXef1UZW'].editScript(3,'\t// temporarily hold the original canvas size',9);
+Xojo.controls['wXef1UZW'].editScript(3,'\tvar el = document.getElementById(\'wXef1UZW\');',10);
+Xojo.controls['wXef1UZW'].editScript(3,'\tvar origWidth = el.offsetWidth;',11);
+Xojo.controls['wXef1UZW'].editScript(3,'        var origHeight = el.offsetHeight;',12);
+Xojo.controls['wXef1UZW'].editScript(3,'',13);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcanvas.width = origWidth * ratio;',14);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcanvas.height = origHeight * ratio;',15);
+Xojo.controls['wXef1UZW'].editScript(3,'',16);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcanvas.style.width = canvas.width / ratio + \'px\';',17);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcanvas.style.height = canvas.height / ratio + \'px\';',18);
+Xojo.controls['wXef1UZW'].editScript(3,'',19);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcontext.scale(ratio, ratio);',20);
+Xojo.controls['wXef1UZW'].editScript(3,'}',21);
+Xojo.controls['wXef1UZW'].editScript(3,'',22);
+Xojo.controls['wXef1UZW'].editScript(3,'}',23);
+Xojo.controls['wXef1UZW'].runScript(1);
+} catch(ex) { }
+	User Details: 
+2023-05-29 02:17:29
+JavaScript Error:
+	Error: Could not execute returned javascript: Cannot read properties of undefined (reading 'setAttribute')
+Source: Xojo.controls['wXef1UZW'].setAttribute('width','116');
+Xojo.controls['wXef1UZW'].setAttribute('height','40');
+try {
+Xojo.controls['wXef1UZW'].editScript(3,'var canvas = document.getElementById(\'wXef1UZW_canvas\');',0);
+Xojo.controls['wXef1UZW'].editScript(3,'if(canvas) {',1);
+Xojo.controls['wXef1UZW'].editScript(3,'\tvar context = canvas.getContext(\'2d\');',2);
+Xojo.controls['wXef1UZW'].editScript(3,'',3);
+Xojo.controls['wXef1UZW'].editScript(3,'var devicePixelRatio = window.devicePixelRatio || 1;',4);
+Xojo.controls['wXef1UZW'].editScript(3,'var backingStoreRatio =  context.webkitBackingStorePixelRatio ||  context.mozBackingStorePixelRatio || context.msBackingStorePixelRatio || context.oBackingStorePixelRatio || context.backingStorePixelRatio || 1;',5);
+Xojo.controls['wXef1UZW'].editScript(3,'if(devicePixelRatio !== backingStoreRatio) {',6);
+Xojo.controls['wXef1UZW'].editScript(3,'\tvar ratio = devicePixelRatio / backingStoreRatio;',7);
+Xojo.controls['wXef1UZW'].editScript(3,'',8);
+Xojo.controls['wXef1UZW'].editScript(3,'\t// temporarily hold the original canvas size',9);
+Xojo.controls['wXef1UZW'].editScript(3,'\tvar el = document.getElementById(\'wXef1UZW\');',10);
+Xojo.controls['wXef1UZW'].editScript(3,'\tvar origWidth = el.offsetWidth;',11);
+Xojo.controls['wXef1UZW'].editScript(3,'        var origHeight = el.offsetHeight;',12);
+Xojo.controls['wXef1UZW'].editScript(3,'',13);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcanvas.width = origWidth * ratio;',14);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcanvas.height = origHeight * ratio;',15);
+Xojo.controls['wXef1UZW'].editScript(3,'',16);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcanvas.style.width = canvas.width / ratio + \'px\';',17);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcanvas.style.height = canvas.height / ratio + \'px\';',18);
+Xojo.controls['wXef1UZW'].editScript(3,'',19);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcontext.scale(ratio, ratio);',20);
+Xojo.controls['wXef1UZW'].editScript(3,'}',21);
+Xojo.controls['wXef1UZW'].editScript(3,'',22);
+Xojo.controls['wXef1UZW'].editScript(3,'}',23);
+Xojo.controls['wXef1UZW'].runScript(1);
+} catch(ex) { }
+	User Details: 
+2023-05-29 02:17:36
+JavaScript Error:
+	Error: Could not execute returned javascript: Cannot read properties of undefined (reading 'setAttribute')
+Source: Xojo.controls['wXef1UZW'].setAttribute('width','116');
+Xojo.controls['wXef1UZW'].setAttribute('height','40');
+try {
+Xojo.controls['wXef1UZW'].editScript(3,'var canvas = document.getElementById(\'wXef1UZW_canvas\');',0);
+Xojo.controls['wXef1UZW'].editScript(3,'if(canvas) {',1);
+Xojo.controls['wXef1UZW'].editScript(3,'\tvar context = canvas.getContext(\'2d\');',2);
+Xojo.controls['wXef1UZW'].editScript(3,'',3);
+Xojo.controls['wXef1UZW'].editScript(3,'var devicePixelRatio = window.devicePixelRatio || 1;',4);
+Xojo.controls['wXef1UZW'].editScript(3,'var backingStoreRatio =  context.webkitBackingStorePixelRatio ||  context.mozBackingStorePixelRatio || context.msBackingStorePixelRatio || context.oBackingStorePixelRatio || context.backingStorePixelRatio || 1;',5);
+Xojo.controls['wXef1UZW'].editScript(3,'if(devicePixelRatio !== backingStoreRatio) {',6);
+Xojo.controls['wXef1UZW'].editScript(3,'\tvar ratio = devicePixelRatio / backingStoreRatio;',7);
+Xojo.controls['wXef1UZW'].editScript(3,'',8);
+Xojo.controls['wXef1UZW'].editScript(3,'\t// temporarily hold the original canvas size',9);
+Xojo.controls['wXef1UZW'].editScript(3,'\tvar el = document.getElementById(\'wXef1UZW\');',10);
+Xojo.controls['wXef1UZW'].editScript(3,'\tvar origWidth = el.offsetWidth;',11);
+Xojo.controls['wXef1UZW'].editScript(3,'        var origHeight = el.offsetHeight;',12);
+Xojo.controls['wXef1UZW'].editScript(3,'',13);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcanvas.width = origWidth * ratio;',14);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcanvas.height = origHeight * ratio;',15);
+Xojo.controls['wXef1UZW'].editScript(3,'',16);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcanvas.style.width = canvas.width / ratio + \'px\';',17);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcanvas.style.height = canvas.height / ratio + \'px\';',18);
+Xojo.controls['wXef1UZW'].editScript(3,'',19);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcontext.scale(ratio, ratio);',20);
+Xojo.controls['wXef1UZW'].editScript(3,'}',21);
+Xojo.controls['wXef1UZW'].editScript(3,'',22);
+Xojo.controls['wXef1UZW'].editScript(3,'}',23);
+Xojo.controls['wXef1UZW'].runScript(1);
+} catch(ex) { }
+	User Details: 
+2023-05-29 02:17:47
+JavaScript Error:
+	Error: Could not execute returned javascript: Cannot read properties of undefined (reading 'setAttribute')
+Source: Xojo.controls['wXef1UZW'].setAttribute('width','116');
+Xojo.controls['wXef1UZW'].setAttribute('height','40');
+try {
+Xojo.controls['wXef1UZW'].editScript(3,'var canvas = document.getElementById(\'wXef1UZW_canvas\');',0);
+Xojo.controls['wXef1UZW'].editScript(3,'if(canvas) {',1);
+Xojo.controls['wXef1UZW'].editScript(3,'\tvar context = canvas.getContext(\'2d\');',2);
+Xojo.controls['wXef1UZW'].editScript(3,'',3);
+Xojo.controls['wXef1UZW'].editScript(3,'var devicePixelRatio = window.devicePixelRatio || 1;',4);
+Xojo.controls['wXef1UZW'].editScript(3,'var backingStoreRatio =  context.webkitBackingStorePixelRatio ||  context.mozBackingStorePixelRatio || context.msBackingStorePixelRatio || context.oBackingStorePixelRatio || context.backingStorePixelRatio || 1;',5);
+Xojo.controls['wXef1UZW'].editScript(3,'if(devicePixelRatio !== backingStoreRatio) {',6);
+Xojo.controls['wXef1UZW'].editScript(3,'\tvar ratio = devicePixelRatio / backingStoreRatio;',7);
+Xojo.controls['wXef1UZW'].editScript(3,'',8);
+Xojo.controls['wXef1UZW'].editScript(3,'\t// temporarily hold the original canvas size',9);
+Xojo.controls['wXef1UZW'].editScript(3,'\tvar el = document.getElementById(\'wXef1UZW\');',10);
+Xojo.controls['wXef1UZW'].editScript(3,'\tvar origWidth = el.offsetWidth;',11);
+Xojo.controls['wXef1UZW'].editScript(3,'        var origHeight = el.offsetHeight;',12);
+Xojo.controls['wXef1UZW'].editScript(3,'',13);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcanvas.width = origWidth * ratio;',14);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcanvas.height = origHeight * ratio;',15);
+Xojo.controls['wXef1UZW'].editScript(3,'',16);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcanvas.style.width = canvas.width / ratio + \'px\';',17);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcanvas.style.height = canvas.height / ratio + \'px\';',18);
+Xojo.controls['wXef1UZW'].editScript(3,'',19);
+Xojo.controls['wXef1UZW'].editScript(3,'\tcontext.scale(ratio, ratio);',20);
+Xojo.controls['wXef1UZW'].editScript(3,'}',21);
+Xojo.controls['wXef1UZW'].editScript(3,'',22);
+Xojo.controls['wXef1UZW'].editScript(3,'}',23);
+Xojo.controls['wXef1UZW'].runScript(1);
+} catch(ex) { }
+	User Details: 
